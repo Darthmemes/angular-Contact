@@ -8,7 +8,7 @@ div {
   padding-left: 30px;
   padding-bottom: 40px;
   border-color: rgb(0, 0, 0);
-  box-shadow: 0 10px 11px 0 rgba(165, 162, 3, 0.8),
+  box-shadow: 0 5px 5px 0 rgba(165, 162, 3, 0.8),
     0 10px 11px 0 rgba(165, 162, 3, 0.8), 0 10px 11px 0 rgba(165, 162, 3, 0.8);
   font-size: 30px;
 }
@@ -21,7 +21,7 @@ input {
   background-color: rgb(165, 162, 3);
   color: rgb(51, 47, 47);
   border-radius: 20px;
-  box-shadow: 0 10px 10px 0 rgb(165, 162, 3, 0.8),
+  box-shadow: 0 5px 5px 0 rgb(165, 162, 3, 0.8),
     0 10px 11px 0 rgba(165, 162, 3, 0.8), 0 10px 11px 0 rgba(165, 162, 3, 0.8);
 }
 button.add-button {
@@ -31,7 +31,7 @@ button.add-button {
   background-color: rgb(165, 162, 3);
   color: rgb(51, 47, 47);
   padding: 10px 20px;
-  box-shadow: 0 10px 10px 0 rgb(165, 162, 3, 0.8),
+  box-shadow: 0 5px 5px 0 rgb(165, 162, 3, 0.8),
     0 10px 11px 0 rgba(165, 162, 3, 0.8), 0 10px 11px 0 rgba(165, 162, 3, 0.8);
 }
 
