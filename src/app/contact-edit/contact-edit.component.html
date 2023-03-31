@@ -1,0 +1,33 @@
+<div class="edit">
+  <label for="contact-fname">Contact First Name: </label>
+  <input id="new-contact-fname" #contactFname />
+
+  <label for="new-contact-lname">Contact Last Name: </label>
+  <input id="new-contact-lname" #contactLname />
+
+  <label for="new-contact-phoneNumber">Contact Phone Number: </label>
+  <input id="new-contact-phoneNumber" #contactPhoneNumber />
+
+  <label for="new-contact-email">Contact Email: </label>
+  <input id="new-contact-email" #contactEmail />
+
+  <button
+    type="button"
+    class="save-button"
+    (click)="
+      editContact(
+        contactFname.value,
+        contactLname.value,
+        contactPhoneNumber.value,
+        contactEmail.value,
+        Contact
+      );
+      contactFname.value = '';
+      contactLname.value = '';
+      contactPhoneNumber.value = '';
+      contactEmail.value = ''
+    "
+  >
+    Save
+  </button>
+</div>

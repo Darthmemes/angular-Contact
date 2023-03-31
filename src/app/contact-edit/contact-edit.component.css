@@ -1,0 +1,32 @@
+.edit {
+  margin-top: 100px;
+}
+
+input {
+  width: 90%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+  background-color: rgb(165, 162, 3);
+  color: rgb(51, 47, 47);
+  border-radius: 20px;
+  font-size: 20px;
+  box-shadow: 0 10px 10px 0 rgb(51, 47, 47, 0.8),
+    0 10px 11px 0 rgba(51, 47, 47, 0.8), 0 10px 11px 0 rgba(51, 47, 47, 0.8);
+}
+
+button.save-button {
+  font-size: 20px;
+  border-radius: 30px;
+  margin-left: 10px;
+  background-color: rgb(165, 162, 3);
+  color: rgb(51, 47, 47);
+  padding: 10px 20px;
+  box-shadow: 0 10px 10px 0 rgb(51, 47, 47, 0.8),
+  0 10px 11px 0 rgba(51, 47, 47, 0.8), 0 10px 11px 0 rgba(51, 47, 47, 0.8);
+}
+
+button.save-button:hover {
+  background-color: rgb(51, 47, 47);
+  color: rgb(165, 162, 3);
+}

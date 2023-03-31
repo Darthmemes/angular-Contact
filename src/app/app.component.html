@@ -1,0 +1,9 @@
+<h1>Contacts</h1>
+<nav>
+<button (click)="toggleEditor('listContacts')">List Contacts</button>
+<button (click)="toggleEditor('addContact')">Add Contact</button>
+</nav>
+
+<app-contact-list *ngIf="showListContacts"></app-contact-list>
+
+<app-contact-add *ngIf="showAddContact"></app-contact-add>

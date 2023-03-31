@@ -1,0 +1,27 @@
+h1 {
+  color: rgb(165, 162, 3);
+  font-size: 40px;
+}
+
+nav button {
+  padding: 1rem;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10%;
+  display: inline-block;
+  background-color: rgb(51, 47, 47);
+  color: rgb(165, 162, 3);
+  border-radius: 20px;
+  margin-right: 20px;
+  box-shadow: 0 10px 11px 0 rgba(165, 162, 3, 0.8),
+    0 10px 11px 0 rgba(165, 162, 3, 0.8), 0 10px 11px 0 rgba(165, 162, 3, 0.8);
+}
+
+nav button:hover {
+  background-color: rgb(165, 162, 3);
+  color: rgb(51, 47, 47);
+}
+nav button.active {
+  background-color: rgb(238, 218, 174);
+  color: rgb(99, 0, 99);
+}

@@ -1,0 +1,23 @@
+<div class="contact">
+  <div class="contact-fname">{{ contact.fname }} {{ contact.lname }}</div>
+
+  <div class="contact-phoneNumber">
+    {{ contact.phoneNumber }}
+  </div>
+
+  <div class="contact-email">
+    {{ contact.email }}
+  </div>
+
+  <div class="buttons">
+  <button type="button" class="delete" (click)="deleteContact(contact)">Delete</button>
+  <button class ="edit" (click)="toggleEditor('editContact')">Edit</button>
+  
+  </div>
+
+
+  <app-contact-edit
+    *ngIf="showEditContact"
+    [Contact]="contact"
+  ></app-contact-edit>
+</div>
